@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RogueFit - Premium Fitness Brand</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo">RogueFit</a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="about.html" class="header__nav-link">About</a></li>
+                    <li class="header__nav-item"><a href="coaching.html" class="header__nav-link">Coaching</a></li>
+                    <li class="header__nav-item"><a href="apparel.html" class="header__nav-link">Apparel</a></li>
+                    <li class="header__nav-item"><a href="results.html" class="header__nav-link">Results</a></li>
+                    <li class="header__nav-item"><a href="contact.html" class="header__nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="header__mobile-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+<main>
+    <section class="page-hero apparel-hero">
+        <div class="page-hero__overlay"></div>
+        <div class="container page-hero__content scroll-fade-in">
+            <h1>RogueFit Apparel</h1>
+            <p>Gear up for your next workout.</p>
+        </div>
+    </section>
+
+    <section class="section section--products">
+        <div class="container">
+            <h2 class="section__title scroll-fade-in">Our Collection</h2>
+
+            <div class="product-filters scroll-fade-in">
+                <select id="product-type-filter" class="filter-select">
+                    <option value="all">All Types</option>
+                    <option value="tshirt">T-Shirts</option>
+                    <option value="shorts">Shorts</option>
+                    <option value="hoodie">Hoodies</option>
+                    <option value="accessories">Accessories</option>
+                </select>
+                <select id="product-size-filter" class="filter-select">
+                    <option value="all">All Sizes</option>
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                    <option value="xl">X-Large</option>
+                </select>
+            </div>
+
+            <div class="product-grid" id="product-grid">
+                <div class="product-card scroll-fade-in" data-type="tshirt" data-size="m">
+                    <img src="images/apparel/product-tshirt-red.jpg" alt="RogueFit Core Tee">
+                    <h3>RogueFit Core Tee</h3>
+                    <p class="product-price">$30.00</p>
+                    <div class="product-actions">
+                        <button class="btn btn--small">Add to Cart</button>
+                        <button class="btn btn--outline btn--small">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-fade-in" data-type="shorts" data-size="l">
+                    <img src="images/apparel/product-shorts-black.jpg" alt="Element Training Shorts">
+                    <h3>Element Training Shorts</h3>
+                    <p class="product-price">$45.00</p>
+                    <div class="product-actions">
+                        <button class="btn btn--small">Add to Cart</button>
+                        <button class="btn btn--outline btn--small">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-fade-in" data-type="hoodie" data-size="xl">
+                    <img src="images/apparel/product-hoodie-grey.jpg" alt="RogueFit Performance Hoodie">
+                    <h3>RogueFit Performance Hoodie</h3>
+                    <p class="product-price">$60.00</p>
+                    <div class="product-actions">
+                        <button class="btn btn--small">Add to Cart</button>
+                        <button class="btn btn--outline btn--small">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-fade-in" data-type="tshirt" data-size="s">
+                    <img src="images/apparel/product-tshirt-black.jpg" alt="RogueFit V-Neck">
+                    <h3>RogueFit V-Neck</h3>
+                    <p class="product-price">$28.00</p>
+                    <div class="product-actions">
+                        <button class="btn btn--small">Add to Cart</button>
+                        <button class="btn btn--outline btn--small">Buy Now</button>
+                    </div>
+                </div>
+                <div class="product-card scroll-fade-in" data-type="accessories" data-size="one-size">
+                    <img src="images/apparel/product-bottle.jpg" alt="RogueFit Water Bottle">
+                    <h3>RogueFit Water Bottle</h3>
+                    <p class="product-price">$15.00</p>
+                    <div class="product-actions">
+                        <button class="btn btn--small">Add to Cart</button>
+                        <button class="btn btn--outline btn--small">Buy Now</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+</main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 RogueFit. All rights reserved.</p>
+            <div class="footer__social">
+                <a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+                <a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+                </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
